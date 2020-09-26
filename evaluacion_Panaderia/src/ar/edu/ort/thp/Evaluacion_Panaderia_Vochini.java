@@ -2,9 +2,7 @@ package ar.edu.ort.thp;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
-public class Evaluacion_Panaderia_Vochini {
+public class Evaluacianaderia_Vochini
 	public static final String MEDIALUNA="MEDIALUNA";
 	public static final String CHIPA="CHIPA";
 	public static final String ROSCA="ROSCA";
@@ -59,8 +57,8 @@ public class Evaluacion_Panaderia_Vochini {
 		}
 		ventaProm=(ventaDiaria/cantidadVentasDia);
 		System.out.println("----------------------------------------------------------------");
-		System.out.println("Cantidad de ventas realizadas en el día :"+ cantidadVentasDia);
-		System.out.println("Recaudación total diaria: "+ ventaDiaria);
+		System.out.println("Cantidad de ventas realizadas en el dÃ­a :"+ cantidadVentasDia);
+		System.out.println("RecaudaciÃ³n total diaria: "+ ventaDiaria);
 		System.out.println("Monto de la venta promedio:" + ventaProm);
 		System.out.println("Importe y DNI cliente mejor compra: "+dniMayor + "-" +ventaMayor);
 		System.out.println("-----------------------------------------------------------------");
